@@ -2,5 +2,7 @@
 
 
 @section('content')
-    @include('form')
+    <div class="mt-6">
+        @include('form')
+    </div>
 @endsection

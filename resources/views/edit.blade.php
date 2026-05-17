@@ -2,5 +2,7 @@
 
 
 @section('content')
-  @include('form', ['task' => $task])
+    <div class="mt-6">
+        @include('form', ['task' => $task])
+    </div>
 @endsection
